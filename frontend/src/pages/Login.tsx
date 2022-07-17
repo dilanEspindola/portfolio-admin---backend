@@ -31,7 +31,7 @@ const Login = () => {
 				>
 					<h1
 						className="text-left text-2xl font-normal
-                    text-white"
+          text-white"
 					>
 						Login
 					</h1>
