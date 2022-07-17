@@ -1,0 +1,58 @@
+.form-login-container {
+	background: linear-gradient(-45deg, #1d1c1c, #1b1b1b, #1f1f1f, #151b19);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.form-login-container .form {
+	box-shadow: 0px 15px 22px -9px rgba(33, 171, 189, 0.397);
+
+	border-radius: 6px;
+}
+
+.form-login-container .form form {
+	display: flex;
+	padding: 25px 40px;
+}
+
+.form-login-container .form form input {
+	border: 2px solid rgba(33, 171, 189);
+	color: rgba(33, 171, 189);
+}
+.form-login-container .form form input::placeholder {
+	text-transform: capitalize;
+}
+
+.form-login-container .form form label {
+	color: rgba(33, 171, 189);
+	padding: 0 5px;
+}
+
+.form-login-container .form form button {
+	margin-top: 20px;
+	border: 1px solid rgba(33, 171, 189);
+	border-radius: 100px;
+	color: rgba(33, 171, 189);
+	text-transform: capitalize;
+	font-size: 18px;
+	transition: all ease-in 0.4s;
+}
+
+.form-login-container .form form button:hover {
+	background-color: rgba(33, 171, 189, 0.822);
+	border: 1px solid rgba(33, 171, 189, 0.822);
+	color: #fff;
+}
