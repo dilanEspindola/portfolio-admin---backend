@@ -37,6 +37,7 @@ export const userRegister = async (req: Request, res: Response) => {
 
 export const userLogin = async (req: Request, res: Response) => {
   const { email, password } = req.body as NewUser;
+
   try {
     const getUser = await User.findOne({ email });
     if (!getUser) return res.json({ msg: "email is not valid", auth: false });

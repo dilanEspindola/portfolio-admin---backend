@@ -21,8 +21,7 @@
         "react",
         "@typescript-eslint"
     ],
-    "rules": {
-        "no-unused-vars": "error",
+    "rules": {        
         "react/prop-types": "off",
         "space-before-function-paren": "error",
         "comma-spacing": "error",
@@ -31,6 +30,8 @@
         "arrow-spacing": "error",
         "camelcase": "error",        
         "no-console": "warn",
-        "no-return-await": "error"        
+        "no-return-await": "error"   ,
+        "no-undef": "off",
+        "no-unused-vars": "warn"
     }
 }
